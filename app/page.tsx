@@ -3,7 +3,7 @@ import { HeroSection } from "@/components/hero-section"
 import { FeaturesSection } from "@/components/features-section"
 import { HowItWorks } from "@/components/how-it-works"
 import { AnalysisForm } from "@/components/analysis-form"
-import { Testimonials } from "@/components/testimonials"
+// import { Testimonials } from "@/components/testimonials"
 import { PricingSection } from "@/components/pricing-section"
 import { Footer } from "@/components/footer"
 
@@ -18,7 +18,7 @@ export default function Home() {
           <HowItWorks />
         </div>
         <AnalysisForm />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <PricingSection />
       </main>
       <Footer />
